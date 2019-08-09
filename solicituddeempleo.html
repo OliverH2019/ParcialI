@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Empleo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form  action="Validacion.php" method="post">
+
+     <h2 class="text-center"> Formulario de Solicitud de Empleo</h2>
+<hr/>
+    <tr>
+        <td><img src="Imagenes/empleo.jpg" width="500px"/></td>
+
+    </tr>
+<hr/>
+    <h3> Datos Personales</h3>
+
+
+
+    <li>    <label for="Nombres">Nombres </label> <br/> </li>
+    <li>    <input type="text" name="Nombre" id="Nombres" required> <br/>  </li>
+
+    <li>    <label for="Apellidos">Apellidos </label> <br/> </li>
+    <li>    <input type="text" name="Apellido" id="Apellidos" required> <br/>  </li>
+
+    <li>    <label for="Edad">Edad </label> <br/> </li>
+    <li>    <input type="text" name="Edad" id="Edad"> <br/>  </li>
+
+    <li>    <label for="Direccion">Direccion </label> <br/> </li>
+    <li>    <input type="text" name="Direccion" id="Direccion"> <br/>  </li>
+
+    <li>    <label for="Telefono">Telefono </label>  <br/> </li>
+    <li>    <li> <input type="tel" name="Telefono" id="Telefono" required> <br/> </li>
+
+    <li>    <label for="Email">Email </label>  <br/> </li>
+    <li>    <input type="email" name="Email" id="Email" required>   <br/> </li>
+
+    <li>    <label for="Lugar y Fecha de Nacimiento">Lugar y Fecha de Nacimiento</label> <br/> </li>
+    <li> <input type="date" name="fecha" id="Fecha" > <br/> </li>
+
+    <li>    <label for="Nacionalidad">Nacionalidad</label> <br/> </li>
+    <li>    <input type="text" name="Nacionalidad" id="Nacionalidad" > <br/>  </li>
+<hr/>
+    <h2> Educacion </h2>
+
+    <li>    <label for="Primaria">Primaria</label> <br/> </li>
+    <li>    <input type="text" name="Primaria" id="Primaria"> <br/>  </li>
+
+    <li>    <label for="Basico">Basico </label> <br/> </li>
+    <li>    <input type="text" name="Basico" id="Basico" required> <br/>  </li>
+
+    <li>    <label for="Diversificado">Diversificado </label> <br/> </li>
+    <li>    <input type="text" name="Diversificado" id="Diversificado"> <br/>  </li>
+
+    <li>    <label for="Universidad">Universidad</label> <br/> </li>
+    <li>    <input type="text" name="Universidad" id="Universidad"> <br/>  </li>
+
+    <li>    <label for="Otro">Otro</label> <br/> </li>
+    <li>    <input type="text" name="Otro" id="Otro" > <br/>  </li>
+
+<hr/>
+    <li> <input type="submit" value="Enviar"> <br/> </li>
+</form>
+
+</body>
+</html>
